@@ -1,6 +1,6 @@
 # ACE-MG Supporting Code
 
-Supporting utilities for **Asymmetric Candidate Evidence Calibration with Two-Margin Graph Inference (ACE-MG)**, described in the manuscript *Few-shot open-world pig vocalization recognition via asymmetric evidence calibration and two-margin graph inference*.
+Supporting utilities for **Asymmetric Candidate Evidence Calibration with Two-Margin Graph Inference (ACE-MG)**.
 
 
 ## Installation
