@@ -95,10 +95,4 @@ The synthetic checks and unit tests validate utility behavior. They do not verif
 
 ## Rights and permissions
 
-The code and documentation included in this supporting-code package are released under the **MIT License**. See `LICENSE`, `LICENSE_STATUS.md` and `THIRD_PARTY_NOTICES.md`. The complete ACE-MG method implementation, study data, split manifests, model weights and real predictions are not included; this release does not license those absent materials.
-
-## 中文说明
-
-本包提供 ACE-MG 的辅助工具，用于检查已有 CLAP 音频嵌入和重算已有预测的指标，不包含核心拟合与推理实现，不能单独复现论文成绩。代码明确区分 Base-only 和 Known-only 的 F1 统计范围；论文、实验结果与对比方法必须使用相同口径。示例数据全部为人工生成，不是论文数据或论文结果。
-
-本包中包含的辅助代码和文档采用 MIT 许可证，完整条款见 `LICENSE`。未包含的核心实现、研究数据、划分清单、模型权重和真实预测不属于本次许可范围。
+The code and documentation included in this supporting-code package are released under the **MIT License**. See `LICENSE`, `LICENSE_STATUS.md` and `THIRD_PARTY_NOTICES.md`. The complete ACE-MG method implementation, study data, split manifests, model weights and real predictions are not included.
