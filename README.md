@@ -95,4 +95,4 @@ The synthetic checks and unit tests validate utility behavior. They do not verif
 
 ## Rights and permissions
 
-The code and documentation included in this supporting-code package are released under the **MIT License**. See `LICENSE`, `LICENSE_STATUS.md` and `THIRD_PARTY_NOTICES.md`. The complete ACE-MG method implementation, study data, split manifests, model weights and real predictions are not included.
+The code and documentation included in this supporting-code package are released under the **MIT License**. See `LICENSE`, `LICENSE_STATUS.md` and `THIRD_PARTY_NOTICES.md`. 
