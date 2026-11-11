@@ -1,0 +1,26 @@
+{
+  "package_scope": "supporting_code_only",
+  "method": "ACE-MG",
+  "manuscript_method_name": "Asymmetric Candidate Evidence Calibration with Two-Margin Graph Inference",
+  "all_labels": ["cough", "eat", "estrus", "normal", "squeal"],
+  "persistent_base_class": "normal",
+  "folds": [1, 2, 3, 4, 5],
+  "k_values": [0, 1, 5, 10],
+  "support_seeds": [42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61],
+  "roles_per_fold": 12,
+  "metric_query_subsets": {
+    "base_macro_f1": "base_queries_only",
+    "novel_f1_known_only": "base_and_novel_queries_only"
+  },
+  "unknown_aupr_definition": "average_precision",
+  "fold_standard_deviation_ddof": 1,
+  "expected_audio_embedding_dimension": 512,
+  "expected_audio_model_id": "laion/clap-htsat-unfused",
+  "expected_audio_padding": "pad",
+  "audio_window_seconds": 1.0,
+  "audio_sample_rate_hz": 48000,
+  "csrc_shift_regularization_lambda": 1000,
+  "query_graph_alpha": 0.35,
+  "query_graph_iterations": 8,
+  "note": "This file records the evaluated protocol. It is not a model-training or inference configuration."
+}
