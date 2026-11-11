@@ -1,2 +1,0 @@
-# Only inputs/validate_audio_embeddings.py requires a third-party package.
-numpy>=1.23,<3
