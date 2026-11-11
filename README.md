@@ -2,7 +2,6 @@
 
 Supporting utilities for **Asymmetric Candidate Evidence Calibration with Two-Margin Graph Inference (ACE-MG)**, described in the manuscript *Few-shot open-world pig vocalization recognition via asymmetric evidence calibration and two-margin graph inference*.
 
-This package validates user-supplied, precomputed CLAP audio embeddings and recomputes evaluation metrics from saved per-query predictions. It provides no model fitting or inference. The complete ACE-MG implementation, study data, split manifests, pretrained checkpoints, and real predictions are not included; the paper's experimental results cannot be reproduced from this package alone.
 
 ## Installation
 
