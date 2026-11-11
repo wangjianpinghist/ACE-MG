@@ -89,9 +89,6 @@ These checks do not inspect WAV contents, identify duplicate recordings under un
 
 `configs/protocol.json` records the main evaluation settings: GaussianTextMatch with text/support-audio Novel prototypes, nine-feature CSRC with candidate-set shift regularization λ=1000, and two-margin query-graph inference with α=0.35 and 8 iterations. It is documentation for the supporting utilities, not an executable fitting or inference configuration. The five-fold, 12-role and K settings correspond to the associated manuscript.
 
-This package contains no event localization, one-second cutting, waveform normalization, Mel frontend, CLAP feature extraction, GaussianTextMatch/CSRC fitting, graph inference, model training, study recordings, real embeddings, historical results, or split manifests. A dataset, if distributed, is managed separately.
-
-The synthetic checks and unit tests validate utility behavior. They do not verify the paper's numerical results.
 
 ## Rights and permissions
 
